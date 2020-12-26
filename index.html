@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>MG meble</title>
+</head>
+<body>
+    <div class="backdrop__container"></div>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <img src="" alt="">
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__link"><a href="#hero">Start</a></li>
+                    <li class="nav__link"><a href="#offer">Oferta</a></li>
+                    <li class="nav__link"><a href="#gallery">Galeria</a></li>
+                    <li class="nav__link"><a href="#contact">Kontakt</a></li>
+                </ul>
+                <div class="nav__toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero__info">
+            <div class="hero__welcome">
+                <img src="images/logonobg.png" alt="">
+            </div>
+            <h2 class="hero__subtitle">Twoja kuchnia, nasza pasja</h2>
+            <a href="#offer"><button class="hero__cta">Sprawdź</button></a>
+            
+        </div>
+    </section>
+    <div class="separator" id="offer">
+        <div class="separator__left"></div>
+        <div class="separator__square"></div>
+        <div class="separator__right"></div>
+    </div>
+    <section class="offer" >
+        <div class="container offer__container">
+            <div class="offer__photo animate-left"></div>
+            <div class="offer__text animate-right">
+                <h1 class="offer__heading"> <span>O</span>ferta</h1>
+                <p class="offer__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Placeat molestiae architecto blanditiis cum aliquam! Beatae perspiciatis magni voluptatum? 
+                    Soluta sit suscipit consequatur, iusto molestiae repellat autem nemo quod sequi laboriosam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="separator" id="gallery">
+        <div class="separator__left"></div>
+        <div class="separator__square"></div>
+        <div class="separator__right"></div>
+    </div>
+    <section class="gallery">
+        <div class="container gallery__container">
+            <div class="gallery__grid">
+                <img src="images/kitchen5.jpg" class="gallery__image animate-left" alt="">
+                <img src="images/kitchen2.jpg" class="gallery__image animate-top" alt="">
+                <img src="images/kitchen3.jpg" class="gallery__image animate-bottom" alt="">
+                <img src="images/kitchen4.jpg" class="gallery__image animate-right" alt="">
+            </div>
+            <div class="gallery__text animate-right">
+                <h1 class="gallery__heading"> <span>G</span>aleria</h1>
+                <p class="gallery__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid magni amet, sint 
+                    non ad, fugit dolore sapiente eaque, nesciunt maxime vel facere commodi! Autem, a in odio commodi est tempore.</p>
+            </div>
+        </div>
+    </section>
+    <div class="separator" >
+        <div class="separator__left"></div>
+        <div class="separator__square"></div>
+        <div class="separator__right"></div>
+    </div>
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+            <div class="contact__image"></div>
+            <form action="submit" class="contact__form animate-right">
+                <h1 class="contact__headline"><span>S</span>kontaktuj się z nami</h1>
+                <input type="text" placeholder="imię">
+                <input type="email" placeholder="email">
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="wiadomość"></textarea>
+                <button class="contact__button">Wyślij</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="#hero"><div class="footer__scroll"><i class="fas fa-chevron-up"></i></div></a>
+            <div class="footer__about">
+                <h2 class="footer__header">O nas</h2>
+                <p class="footer__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum dicta officiis itaque laboriosam sint quasi repellendus sequi, nobis veritatis nihil.</p>
+            </div>
+            <div class="footer__social">
+                <h2 class="footer__find">Znajdź nas</h2>
+                <div class="footer__icons">
+                    <ul class="footer__list">
+                        <li class="footer__link"><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+                        <li class="footer__link"><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+                        <li class="footer__link"><a href="https://www.facebook.com/mgmeblemichalgorczak"><i class="fab fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
